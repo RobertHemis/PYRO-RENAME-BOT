@@ -4,7 +4,7 @@ routes = web.RouteTableDef()
 
 @routes.get("/", allow_head=True)
 async def root_route_handler(request):
-    return web.json_response("PyroBotz")
+    return web.json_response("Running.Get back to bot @alifano02bot")
 
 
 async def web_server():
