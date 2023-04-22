@@ -28,18 +28,18 @@ class Bot(Client):
                 self.invitelink = link
             except Exception as e:
                 print(e)
-                print("Make Sure Bot admin in force sub channel")             
+                print("Make sure bot admin in force sub channel")             
                 self.force_channel = None
         if WEBHOOK:
             app = web.AppRunner(await web_server())
             await app.setup()       
             await web.TCPSite(app, "0.0.0.0", PORT).start()     
-        print(f"{me.first_name} 𝚂𝚃𝙰𝚁𝚃𝙴𝙳 ⚡️⚡️⚡️")
+        print(f"{me.first_name} started ⚡️")
       
 
     async def stop(self, *args):
         await super().stop()      
-        print("Bot Stopped")
+        print("Bot stopped")
        
 
 bot=Bot()
