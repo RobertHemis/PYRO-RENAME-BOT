@@ -24,7 +24,7 @@
         },
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
-            "value": ""
+            "value": "5928967935:AAEMGkabCsOEZ_7nMxKt5sTlUg2hPFJ2h1w"
         },
         "ADMIN": {
             "description":"Add Your User ID multiple is use space to split"
