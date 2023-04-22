@@ -28,6 +28,7 @@
         },
         "ADMIN": {
             "description":"Add Your User ID multiple is use space to split"
+"value": "5751327581"
         },
         "DB_URL": {
             "description": "Your Mongo DB URL Obtained From mongodb.com",
